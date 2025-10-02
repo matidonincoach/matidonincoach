@@ -1,16 +1,14 @@
-## Hi there 👋
+# Matidonin Coach
 
-<!--
-**matidonincoach/matidonincoach** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Landing page oficial de **Matidonin Coach**.
 
-Here are some ideas to get you started:
+## 🚀 Tecnologías usadas
+- HTML5
+- CSS3
+- GitHub Pages
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🌐 Sitio online
+[Ver página publicada](https://matidonin.github.io/matidonin-coach/)
+
+## 📩 Contacto
+- Instagram: [@matidonin](https://instagram.com/maatiidonin_)
