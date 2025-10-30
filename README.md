@@ -8,7 +8,7 @@ Landing page oficial de **Matidonin Coach**.
 - GitHub Pages
 
 ## 🌐 Sitio online
-[Ver página publicada](https://matidonin.github.io/matidonin-coach/)
+[Ver página publicada](https://matidonincoach.github.io/matidonincoach/)
 
 ## 📩 Contacto
 - Instagram: [@matidonin](https://instagram.com/maatiidonin_)
