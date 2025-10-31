@@ -13,7 +13,7 @@
   --ok:#18c964;
 }
 
-/* Reset básico */
+/* Reset bÃ¡sico */
 *,*::before,*::after{box-sizing:border-box}
 html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,sans-serif}
 img{max-width:100%;display:block}
@@ -55,7 +55,7 @@ nav a:hover{background:rgba(229,9,20,.12)}
              linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
 }
 .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:center}
-.kicker{color:var(--primary);text-transform:uppercase;font-weight:800;letter-spacing:1.2px}
+.kicker{color:var(--primary);text-transform:uppercase;font-weight:800;letter-spacing:1.2px;font-size:1rem}
 h1{font-size:clamp(32px, 4vw, 54px);line-height:1.05;margin:10px 0}
 .lead{color:#e4e4e4;font-size:clamp(16px, 1.6vw, 20px);opacity:.95}
 .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
@@ -103,7 +103,7 @@ section{padding:56px 0;border-top:1px solid var(--stroke)}
   border-radius:999px;margin-bottom:8px
 }
 
-/* ---------- PASOS (Método) ---------- */
+/* ---------- PASOS (MÃ©todo) ---------- */
 .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
 .step{
   position:relative;padding:18px;border-radius:14px;
@@ -124,12 +124,12 @@ section{padding:56px 0;border-top:1px solid var(--stroke)}
 .quote{border-left:3px solid var(--primary);padding-left:12px;margin:8px 0;color:#e9e9e9}
 
 /* ---------- FAQ ---------- */
-.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start}
 details{background:var(--card);border:1px solid var(--stroke);border-radius:12px;padding:12px}
 summary{cursor:pointer;font-weight:700}
 details[open]{border-color:var(--primary)}
 
-/* ---------- CTA (Evaluación) ---------- */
+/* ---------- CTA (EvaluaciÃ³n) ---------- */
 .cta{
   background:linear-gradient(180deg,#120000,#1a0001);
   border:1px solid rgba(229,9,20,.35);
@@ -160,7 +160,7 @@ footer .btn.ghost{padding:8px 12px}
   .steps{grid-template-columns:1fr}
 }
 
-/* ===== Tabs centradas (Video · Agenda · Testimonios) ===== */
+/* ===== Tabs centradas (Video Â· Agenda Â· Testimonios) ===== */
 .hero--center .hero-actions{justify-content:center}
 .hero-grid--1col{grid-template-columns:1fr}
 
@@ -191,13 +191,13 @@ footer .btn.ghost{padding:8px 12px}
 }
 .embed.light{background:#121212}
 
-/* Agenda placeholder (si no incrustás Calendly aún) */
+/* Agenda placeholder (si no incrustÃ¡s Calendly aÃºn) */
 .agenda-placeholder{
   display:grid;place-content:center;text-align:center;padding:24px;color:var(--muted)
 }
 .agenda-placeholder h3{color:#fff;margin:0 0 6px}
 
-/* Testimonios dentro de pestaña */
+/* Testimonios dentro de pestaÃ±a */
 .testis-grid{
   display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px
 }
@@ -214,7 +214,7 @@ footer .btn.ghost{padding:8px 12px}
 .t-card h4{margin:0 0 4px}
 .t-card p{margin:0;color:#d9d9d9}
 
-/* Ajustes de centrado/secciones para look más prolijo */
+/* Ajustes de centrado/secciones para look mÃ¡s prolijo */
 section[style*="scroll-margin-top"]{scroll-margin-top:80px}
 #servicios .features{grid-template-columns:repeat(3,1fr)}
 #programa .plans{max-width:760px;margin-inline:auto}
@@ -225,7 +225,7 @@ section[style*="scroll-margin-top"]{scroll-margin-top:80px}
   .testis-grid{grid-template-columns:1fr}
 }
 
-/* Card blanca para Calendly estilo “default” */
+/* Card blanca para Calendly estilo â€œdefaultâ€ */
 .agenda-card{
   width:min(980px, 92vw);
   margin: 0 auto;
@@ -235,10 +235,10 @@ section[style*="scroll-margin-top"]{scroll-margin-top:80px}
   border-radius:16px;
   box-shadow: 0 10px 30px -15px rgba(0,0,0,.35);
   overflow:hidden;       /* redondeo real del iframe interno */
-  padding:0;             /* Calendly ya tiene sus márgenes internos */
+  padding:0;             /* Calendly ya tiene sus mÃ¡rgenes internos */
 }
 
-/* Altura cómoda / responsive */
+/* Altura cÃ³moda / responsive */
 .calendly-inline-widget{ height:900px !important; }
 @media (max-width:560px){
   .calendly-inline-widget{ height:1000px !important; }
